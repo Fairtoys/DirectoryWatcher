@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DirectoryWatcher_Example' do
+  pod 'DirectoryWatcher', :path => '../'
+
+  target 'DirectoryWatcher_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
