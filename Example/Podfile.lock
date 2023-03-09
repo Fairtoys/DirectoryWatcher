@@ -1,0 +1,42 @@
+PODS:
+  - DirectoryWatcher (0.1.0)
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - DirectoryWatcher (from `../`)
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+
+EXTERNAL SOURCES:
+  DirectoryWatcher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DirectoryWatcher: 32333b5e17a40ce76fdff01d5afe2c14f4ec0e7a
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 5adf75a937496ffea5c9cfa742326944be8ee147
+
+COCOAPODS: 1.11.3

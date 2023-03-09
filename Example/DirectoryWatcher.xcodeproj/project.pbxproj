@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14AC2EB829BA34C300FD76BD /* DITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC2EB729BA34C300FD76BD /* DITableViewController.m */; };
+		14AC2EBE29BA36A800FD76BD /* Image Document.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14AC2EBA29BA36A800FD76BD /* Image Document.jpg */; };
+		14AC2EBF29BA36A800FD76BD /* Text Document.txt in Resources */ = {isa = PBXBuildFile; fileRef = 14AC2EBB29BA36A800FD76BD /* Text Document.txt */; };
+		14AC2EC029BA36A800FD76BD /* HTML Document.html in Resources */ = {isa = PBXBuildFile; fileRef = 14AC2EBC29BA36A800FD76BD /* HTML Document.html */; };
+		14AC2EC129BA36A800FD76BD /* PDF Document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 14AC2EBD29BA36A800FD76BD /* PDF Document.pdf */; };
 		5029966EFABAE5E888270EC5 /* Pods_DirectoryWatcher_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8813411B420DC06213DD56B6 /* Pods_DirectoryWatcher_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -14,7 +19,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* DIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DIAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* DIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DIViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,8 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14AC2EB629BA34C300FD76BD /* DITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITableViewController.h; sourceTree = "<group>"; };
+		14AC2EB729BA34C300FD76BD /* DITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITableViewController.m; sourceTree = "<group>"; };
+		14AC2EBA29BA36A800FD76BD /* Image Document.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image Document.jpg"; sourceTree = "<group>"; };
+		14AC2EBB29BA36A800FD76BD /* Text Document.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Text Document.txt"; sourceTree = "<group>"; };
+		14AC2EBC29BA36A800FD76BD /* HTML Document.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "HTML Document.html"; sourceTree = "<group>"; };
+		14AC2EBD29BA36A800FD76BD /* PDF Document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PDF Document.pdf"; sourceTree = "<group>"; };
 		45EDE564C2F60CFE8B1FB17B /* Pods-DirectoryWatcher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectoryWatcher_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DirectoryWatcher_Tests/Pods-DirectoryWatcher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		555D6109CEC75886628B80E2 /* DirectoryWatcher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DirectoryWatcher.podspec; path = ../DirectoryWatcher.podspec; sourceTree = "<group>"; };
+		555D6109CEC75886628B80E2 /* DirectoryWatcher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DirectoryWatcher.podspec; path = ../DirectoryWatcher.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DirectoryWatcher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectoryWatcher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,8 +59,6 @@
 		6003F59B195388D20070C39A /* DirectoryWatcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DirectoryWatcher-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* DIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* DIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* DirectoryWatcher_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectoryWatcher_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,9 +72,9 @@
 		865F76C2D99A792A05689BAE /* Pods-DirectoryWatcher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectoryWatcher_Example.debug.xcconfig"; path = "Target Support Files/Pods-DirectoryWatcher_Example/Pods-DirectoryWatcher_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8813411B420DC06213DD56B6 /* Pods_DirectoryWatcher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DirectoryWatcher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92075489BF267A8D560F0F77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		92075489BF267A8D560F0F77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D6FFAFA1A752853AE4C2F8A1 /* Pods-DirectoryWatcher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectoryWatcher_Tests.release.xcconfig"; path = "Target Support Files/Pods-DirectoryWatcher_Tests/Pods-DirectoryWatcher_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F0154339B178D8F2774DE831 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0154339B178D8F2774DE831 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14AC2EB929BA36A800FD76BD /* SampleDocs */ = {
+			isa = PBXGroup;
+			children = (
+				14AC2EBA29BA36A800FD76BD /* Image Document.jpg */,
+				14AC2EBB29BA36A800FD76BD /* Text Document.txt */,
+				14AC2EBC29BA36A800FD76BD /* HTML Document.html */,
+				14AC2EBD29BA36A800FD76BD /* PDF Document.pdf */,
+			);
+			path = SampleDocs;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +151,11 @@
 		6003F593195388D20070C39A /* Example for DirectoryWatcher */ = {
 			isa = PBXGroup;
 			children = (
+				14AC2EB629BA34C300FD76BD /* DITableViewController.h */,
+				14AC2EB729BA34C300FD76BD /* DITableViewController.m */,
 				6003F59C195388D20070C39A /* DIAppDelegate.h */,
 				6003F59D195388D20070C39A /* DIAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DIViewController.h */,
-				6003F5A6195388D20070C39A /* DIViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -148,6 +167,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14AC2EB929BA36A800FD76BD /* SampleDocs */,
 				6003F595195388D20070C39A /* DirectoryWatcher-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -193,7 +213,6 @@
 				45EDE564C2F60CFE8B1FB17B /* Pods-DirectoryWatcher_Tests.debug.xcconfig */,
 				D6FFAFA1A752853AE4C2F8A1 /* Pods-DirectoryWatcher_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +268,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Elvis;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 48E3LB8PD7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +281,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,10 +301,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AC2EBE29BA36A800FD76BD /* Image Document.jpg in Resources */,
+				14AC2EC129BA36A800FD76BD /* PDF Document.pdf in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				14AC2EC029BA36A800FD76BD /* HTML Document.html in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				14AC2EBF29BA36A800FD76BD /* Text Document.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DIAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* DIViewController.m in Sources */,
+				14AC2EB829BA34C300FD76BD /* DITableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +546,7 @@
 			baseConfigurationReference = 865F76C2D99A792A05689BAE /* Pods-DirectoryWatcher_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DirectoryWatcher/DirectoryWatcher-Prefix.pch";
 				INFOPLIST_FILE = "DirectoryWatcher/DirectoryWatcher-Info.plist";
@@ -535,6 +563,7 @@
 			baseConfigurationReference = 60AB7F501C2A7BAD49856BB8 /* Pods-DirectoryWatcher_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DirectoryWatcher/DirectoryWatcher-Prefix.pch";
 				INFOPLIST_FILE = "DirectoryWatcher/DirectoryWatcher-Info.plist";
