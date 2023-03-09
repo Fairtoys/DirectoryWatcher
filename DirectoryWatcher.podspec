@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DirectoryWatcher'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DirectoryWatcher.'
+  s.summary          = '苹果官方文件夹监听demo'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+苹果官方文件夹监听demo
                        DESC
 
-  s.homepage         = 'https://github.com/Elvis/DirectoryWatcher'
+  s.homepage         = 'https://github.com/Fairtoys/DirectoryWatcher'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Elvis' => 'elviswang@podoteng.com' }
-  s.source           = { :git => 'https://github.com/Elvis/DirectoryWatcher.git', :tag => s.version.to_s }
+  s.author           = { 'Elvis' => '313574889@qq.com' }
+  s.source           = { :git => 'https://github.com/Fairtoys/DirectoryWatcher.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
